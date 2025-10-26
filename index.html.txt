@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>项目视频 | 南京农业大学食品科技学院 胡冰</title>
+  <style>
+    body {
+      background-color: #000;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    video {
+      width: 80vw;
+      height: auto;
+      max-width: 960px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+  <!-- 👇 把 project.mp4 上传到仓库中 -->
+  <video controls autoplay>
+    <source src="project.mp4" type="video/mp4">
+    您的浏览器不支持视频播放。
+  </video>
+</body>
+</html>
